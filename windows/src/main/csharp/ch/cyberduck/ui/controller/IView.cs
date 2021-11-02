@@ -19,6 +19,7 @@
 using System.ComponentModel;
 using System.Windows.Forms;
 using Ch.Cyberduck.Core.TaskDialog;
+using Windows.Win32.UI.Controls;
 
 namespace Ch.Cyberduck.Ui.Controller
 {
@@ -47,7 +48,7 @@ namespace Ch.Cyberduck.Ui.Controller
         TaskDialogResult MessageBox(string title, string message, string content, string expandedInfo, string help,
             string verificationText, DialogResponseHandler handler);
 
-        TaskDialogResult MessageBox(string title, string message, string content, TaskDialogCommonButtons buttons,
+        TaskDialogResult MessageBox(string title, string message, string content, TASKDIALOG_COMMON_BUTTON_FLAGS buttons,
             TaskDialogIcon icons);
 
         TaskDialogResult CommandBox(string title, string mainInstruction, string content, string expandedInfo, string help,
