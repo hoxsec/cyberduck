@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Windows.Win32;
 using Windows.Win32.Foundation;
 using Windows.Win32.UI.Shell;
+using Windows.Win32.UI.Shell.Common;
 using static Windows.Win32.PInvoke;
 
 // Based on http://stackoverflow.com/a/32417530, Windows 10 SDK and github project VirtualDesktop
